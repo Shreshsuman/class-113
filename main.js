@@ -4,7 +4,7 @@ function preload() {
 function setup() {
     var canvas = createCanvas(640, 480);
     canvas.position(300, 250);
-    var video = creatCapture(VIDEO);
+    video = createCapture(VIDEO);
     video.hide();
     var tint_color = "";
 }
